@@ -1,1 +1,1 @@
-# This is a basic personal website that I made when learning HTML. 
+# This is a basic personal website that I made when I learned HTML. 
