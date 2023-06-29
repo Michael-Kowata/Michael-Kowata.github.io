@@ -1,0 +1,30 @@
+<DOCTYPE! html>
+    <html>
+        <head> <style> li {background-color:lightblue;
+        color:orange;}
+        </style>
+            <title>Homepage</title>
+        </head>
+        <body>
+            <h1>Welcome to Michael's Homepage!</h1>
+             <p><h1><i>Bio</i></h1>
+            My name is Michael and I am a student studying computer science.
+            Here is a list of some things about me!
+            <ul>
+            <li>I like to do athletics</li>
+                <ul><li>Cross Country</li></ul>
+                <ul><li>Tennis</li></ul>
+            <li>I like to play chess</li>
+            <li>I like to swim</li>
+            <li>I like to sleep</li>
+            <li>I like to eat food</li>
+            </ul></p>
+            I would like to get a better understanding
+            of how computers function in modern-day society,
+            which is why I have decided to take AP CS Principles.
+            <h4>Here is a link to one of my favorite websites
+            that I have made before.</h4>
+             <a href ="https://codehs.com/editor/html/2266785/2843176/999054753/index.html">
+            My Personal Library
+            </a>
+            
