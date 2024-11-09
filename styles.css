@@ -1,11 +1,14 @@
 
-
 p{
     width:80%;
-    margin-right:auto;
-    margin-left:auto;
 }
 
-body{
-    text-align:center;
+Intro{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
 }

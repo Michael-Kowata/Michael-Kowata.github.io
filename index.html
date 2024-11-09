@@ -9,15 +9,13 @@
 
 <body>
 
-    <section class = "Intro">
+    <section class = "Intro" id = "Intro">
     <h1>Hello World!</h1>
     <img src = "https://media.licdn.com/dms/image/D5603AQEPtNaX3Ti5qQ/profile-displayphoto-shrink_200_200/0/1691260428700?e=2147483647&v=beta&t=wgUr7Tt7ekirdUoOBf2uXvsSc1GF3vEJyEwNV06tsZU" alt = "portrait">
     <figcaption>My name is Michael Kowata.</figcaption>
     <h3>Introduction</h3>
-    <p>Welcome to my personal website! I am a undergraduate majoring in computer science. I am transferred from El Camino Community College, 
-        and am currently attending Cal State Dominguez Hills. I have 
-        experience coding in HTML, CSS, JavaScript, Python, Java, and C++. My goal is to be able to contribute something 
-        meaningful to society and give back to the community through the creation of games/programs. 
+    <p>Welcome to my personal website! I am a undergraduate majoring in computer science. I am transferred from El Camino Community College, and am currently attending Cal State Dominguez Hills. 
+        I have experience coding in HTML, CSS, JavaScript, Python, Java, and C++. My goal is to be able to contribute something meaningful to society and give back to the community through the creation of games/programs. 
     </p>
     </section>
 
@@ -26,8 +24,17 @@
     <p> I didn't know what I wanted to do until I reached my senior year of high school, which was when I first discovered Computer Science and programming. 
         Even now I'm still just trying to figure things out. 
         However if there is any single takeaway that I could give to younger me it would be to remain proactive, but always have a good reason for pursueing something. 
-        Since then, I've been able to contribute to an 3 different open source projects, travel to Washington D.C. for a stem conference, 
-        as well as be part of a business academy program. Along the way I met many interesting people, and I hope to continue to growing and learning as I continue my educational journey. 
+        Here are some of my 
+        Highlights:
+        <ul>
+            <li>Transferred from El Camino maintaining a cumulative GPA of 3.68 and obtaining making the Dean's List 2 times.</li>
+            <li>Been awarded the El Camino Academic Achievement Award. </li>
+            <li>Contributed to 4 different open source projects.</li>
+            <li>Published 2 technical blog posts.</li>
+            <li>Developed a simple Cube Game in Unity.</li>
+            <li>Was selected to represent my college in the first ever annual Stem Scholar Conference in Washington DC.</li>
+        </ul>
+        I hope to continue to growing and learning as I continue my educational journey. 
     </p>
     </section>
  
@@ -35,12 +42,23 @@
     <h3>Projects</h3>
     
     <p>Here is a link to the first website I have created as a well another project that I have finished! I still have a long way to go to improve my web development skills.</p>
-    <fieldset>
+
         <a href ="first.html">First Website</a>
-    </fieldset>    
-    <fieldset>
         <a href ="https://michael-kowata.github.io/Catalog-Website/">Catalog Website</a>
-    </fieldset>
+    
+    </section>
+
+    <section class = "Contact">
+    <h3>Contact</h3>
+    <p>If you would like to contact me, please feel free submit your email here!</p>
+        <fieldset>
+            <legend>Contact Form</legend>
+            <form action="contact.php" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Submit">
+            </form>
+        </fieldset>
     
     </section>
 
