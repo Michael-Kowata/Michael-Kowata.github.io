@@ -51,14 +51,17 @@
     <section class = "Contact">
     <h3>Contact</h3>
     <p>If you would like to contact me, please feel free submit your email here!</p>
+        <form action="contact.php" method="post">
         <fieldset>
             <legend>Contact Form</legend>
-            <form action="contact.php" method="post">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <input type="submit" value="Submit">
-            </form>
+            <label for ="name">Name:<input id ="name" name = "name" type ="text" required></input></label>
+            <label for ="email">Email:<input id ="email" name = "email" type ="text" required></input></label>
+            <label>Message:</label>
+            <label for ="message"><textarea id ="message" name = "message" required></textarea></label>
         </fieldset>
+        <button type = "submit">Submit</button>
+        </form>
+
     
     </section>
 
